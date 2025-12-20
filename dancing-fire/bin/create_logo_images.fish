@@ -1,4 +1,5 @@
 #!/usr/bin/env fish
+# Creates images for logo from the SVG source.
 
 set dir (status dirname)
 
