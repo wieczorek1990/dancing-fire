@@ -1,17 +1,20 @@
 import math
-import os
 import sys
 
 import moderngl
 import pygame
-
-os.environ["SDL_WINDOWS_DPI_AWARENESS"] = "permonitorv2"
 
 width, height = 400, 400
 caption = "Dancing Fire"
 milliseconds_in_a_second = 1000.0
 blue = 166, 219, 255
 r, g, b = [float(value) / 255.0 for value in blue]
+
+
+def init():
+    pygame.init()
+    pygame.display.set_mode((width, height), flags=pygame.OPENGL | pygame.DOUBLEBUF, vsync=True)
+    pygame.display.set_caption(caption)
 
 
 class Scene:
@@ -38,10 +41,7 @@ class Game:
 
 
 def main():
-    pygame.init()
-    pygame.display.set_mode((width, height), flags=pygame.OPENGL | pygame.DOUBLEBUF, vsync=True)
-    pygame.display.set_caption(caption)
-
+    init()
     scene = Scene()
     game = Game(scene)
 
