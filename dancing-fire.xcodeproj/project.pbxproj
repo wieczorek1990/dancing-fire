@@ -8,11 +8,6 @@
 
 /* Begin PBXFileReference section */
 		CB6D8C902EF71009002772B0 /* dancing-fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dancing-fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB6D8CA72EF71048002772B0 /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
-		CB6D8CA82EF71048002772B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		CB6D8CA92EF71048002772B0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		CB6D8CAA2EF71048002772B0 /* logo.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = logo.svg; sourceTree = "<group>"; };
-		CB6D8CAC2EF71048002772B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +32,6 @@
 		CB6D8C872EF71009002772B0 = {
 			isa = PBXGroup;
 			children = (
-				CB6D8CA62EF71040002772B0 /* Initial */,
 				CB6D8C922EF71009002772B0 /* dancing-fire */,
 				CB6D8C912EF71009002772B0 /* Products */,
 			);
@@ -49,26 +43,6 @@
 				CB6D8C902EF71009002772B0 /* dancing-fire.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CB6D8CA62EF71040002772B0 /* Initial */ = {
-			isa = PBXGroup;
-			children = (
-				CB6D8CA72EF71048002772B0 /* .gitattributes */,
-				CB6D8CA82EF71048002772B0 /* .gitignore */,
-				CB6D8CAB2EF71048002772B0 /* Images */,
-				CB6D8CAC2EF71048002772B0 /* README.md */,
-			);
-			path = Initial;
-			sourceTree = "<group>";
-		};
-		CB6D8CAB2EF71048002772B0 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				CB6D8CA92EF71048002772B0 /* logo.png */,
-				CB6D8CAA2EF71048002772B0 /* logo.svg */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
