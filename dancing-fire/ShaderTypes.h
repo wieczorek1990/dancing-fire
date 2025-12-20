@@ -1,11 +1,4 @@
 //
-//  ShaderTypes.h
-//  dancing-fire
-//
-//  Created by Łukasz Wieczorek on 20/12/2025.
-//
-
-//
 //  Header containing types and enum constants shared between Metal shaders and Swift/ObjC source
 //
 #ifndef ShaderTypes_h
@@ -46,4 +39,3 @@ typedef struct
 } Uniforms;
 
 #endif /* ShaderTypes_h */
-

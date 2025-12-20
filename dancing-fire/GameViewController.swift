@@ -1,10 +1,3 @@
-//
-//  GameViewController.swift
-//  dancing-fire
-//
-//  Created by Łukasz Wieczorek on 20/12/2025.
-//
-
 import Cocoa
 import MetalKit
 

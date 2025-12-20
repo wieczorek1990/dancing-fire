@@ -1,10 +1,3 @@
-//
-//  Renderer.swift
-//  dancing-fire
-//
-//  Created by Łukasz Wieczorek on 20/12/2025.
-//
-
 // Our platform independent renderer class
 
 import Metal

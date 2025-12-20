@@ -1,12 +1,3 @@
-//
-//  Shaders.metal
-//  dancing-fire
-//
-//  Created by Łukasz Wieczorek on 20/12/2025.
-//
-
-// File for Metal kernel and shader functions
-
 #include <metal_stdlib>
 #include <simd/simd.h>
 
